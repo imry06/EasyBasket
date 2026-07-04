@@ -25,22 +25,22 @@ export default function AkkaAnnaCarousel() {
 
   return (
     <div className="hero">
-      <div className="hero-image">
+
+<div className="hero-image">
         <img
-          src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA3L3dvcmxkZmFjZXNsYWJfM2RfY2hhcmFjdGVyX2lsbHVzdHJhdGlvbl9pc29sYXRlZF9pbl93aGl0ZV9iYWNrZ19kMzZiOTNiNC1mNGY3LTQwMmUtOTY4Zi04ZDFlMzYxMmEyZTAucG5n.png"
+          src="https://static.vecteezy.com/system/resources/thumbnails/035/573/433/small/delivery-man-riding-scooter-3d-illustration-express-delivery-3d-illustration-png.png"
           alt="Akka Anna"
         />
       </div>
 
-      <div className="hero-content">
-        <h1>Akka-Anna</h1>
 
+         <div className="hero-content">
         <p key={index} className="fade">
           {slogans[index]}
         </p>
-
         <button>Order Now</button>
       </div>
+
     </div>
   );
 }
