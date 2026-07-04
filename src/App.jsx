@@ -1,11 +1,11 @@
 
 import './App.css'
+import Logo from './components/Logo'
 
 function App() {
-
   return (
     <>
-     <h1>EasyBasket</h1>
+    <Logo/>
     </>
   )
 }
