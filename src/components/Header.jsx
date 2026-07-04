@@ -6,15 +6,15 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__logo">
-        <span className="header__logo-icon">🛒</span>
-        <span className="header__logo-text">EasyBasket</span>
+        {/* <span className="header__logo-icon">🛒</span> */}
+        <span className="header__logo-text">akka-anna</span>
       </div>
       <div className="header__actions">
         <button className="header__action" aria-label="User">
-          <span className="header__action-icon">👤</span>
+          <i className="fa-solid fa-user"></i>
         </button>
         <button className="header__action" aria-label="Cart">
-          <span className="header__action-icon">🛍️</span>
+          <i className="fa-solid fa-shopping-cart"></i>
         </button>
       </div>
     </header>

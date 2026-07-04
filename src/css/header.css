@@ -3,7 +3,6 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1.5rem;
-  background: linear-gradient(135deg, #2a9d8f, #264653);
   color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
   position: sticky;
@@ -17,6 +16,14 @@ header .logo {
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+
+header .header__logo-text{
+    font-family: "Pacifico", cursive;
+    font-size: 1.75rem;
+    color: #68ac2e;
+    text-align: center;
+    font-weight: bold;
+    }
 
 header nav {
   display: flex;
@@ -38,37 +45,20 @@ header nav a:focus {
   color: #f8f9fa;
 }
 
-header .actions {
+header .header__actions {
   display: flex;
   align-items: center;
   gap: 0.75rem;
 }
 
-header .actions button,
-header .actions .button {
+header .header__actions button {
+  background: none;
   border: none;
-  background: rgba(255, 255, 255, 0.18);
-  color: #fff;
-  padding: 0.65rem 1rem;
-  border-radius: 0.5rem;
+  color: #555;
   cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-header .actions button:hover,
-header .actions .button:hover {
-  background: rgba(255, 255, 255, 0.28);
-}
-
-@media screen and (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.75rem;
-  }
-
-  header nav {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+  font-size: 1.25rem;
+  transition: color 0.2s ease;
+  border-radius: 50%;
+  border: 1px solid #555;
+  padding: 0.5rem;
 }
