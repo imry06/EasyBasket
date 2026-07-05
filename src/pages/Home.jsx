@@ -1,9 +1,19 @@
-import React from 'react'
+import ProductCard from "../components/ProductCard";
+import products from "../data/products";
 
-const Home = () => {
+export default function Home() {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="container">
+      <h1>All Products</h1>
 
-export default Home
+      <div className="products-grid">
+        {products.map((product) => (
+          <ProductCard
+            key={product.id}
+            product={product}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
