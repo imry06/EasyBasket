@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
       <div className="header__logo">
         {/* <span className="header__logo-icon">🛒</span> */}
-        <span className="header__logo-text">akka-anna</span>
+        <span className="header__logo-text">EasyBasket</span>
       </div>
       <div className="header__actions">
         <button className="header__action" aria-label="User">

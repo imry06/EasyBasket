@@ -5,7 +5,7 @@ import "../css/footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-        <h3 className="logo">akka-anna</h3>
+        <h3 className="logo">EasyBasket</h3>
         <ul className="social-icons">
             <li><a href="https://www.facebook.com/akkaanna" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/akkaanna" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
