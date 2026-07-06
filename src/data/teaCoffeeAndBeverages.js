@@ -1,6 +1,6 @@
 const teaCoffeeAndBeverages = [
   {
-    id: 1,
+    id: "TCAB1",
     name: "Tea Powder",
     image: "https://picsum.photos/seed/teapowder/400/400",
     measurementUnit: "g",
@@ -10,7 +10,7 @@ const teaCoffeeAndBeverages = [
     off: "8%"
   },
   {
-    id: 2,
+    id: "TCAB2",
     name: "Premium Tea",
     image: "https://picsum.photos/seed/premiumtea/400/400",
     measurementUnit: "kg",
@@ -20,7 +20,7 @@ const teaCoffeeAndBeverages = [
     off: "7%"
   },
   {
-    id: 3,
+    id: "TCAB3",
     name: "Instant Coffee",
     image: "https://picsum.photos/seed/instantcoffee/400/400",
     measurementUnit: "g",
@@ -30,7 +30,7 @@ const teaCoffeeAndBeverages = [
     off: "7%"
   },
   {
-    id: 4,
+    id: "TCAB4",
     name: "Filter Coffee",
     image: "https://picsum.photos/seed/filtercoffee/400/400",
     measurementUnit: "g",
@@ -40,7 +40,7 @@ const teaCoffeeAndBeverages = [
     off: "9%"
   },
   {
-    id: 5,
+    id: "TCAB5",
     name: "Green Tea",
     image: "https://picsum.photos/seed/greentea/400/400",
     measurementUnit: "bags",
@@ -50,7 +50,7 @@ const teaCoffeeAndBeverages = [
     off: "8%"
   },
   {
-    id: 6,
+    id: "TCAB6",
     name: "Masala Tea",
     image: "https://picsum.photos/seed/masalatea/400/400",
     measurementUnit: "g",
@@ -60,7 +60,7 @@ const teaCoffeeAndBeverages = [
     off: "8%"
   },
   {
-    id: 7,
+    id: "TCAB7",
     name: "Hot Chocolate Mix",
     image: "https://picsum.photos/seed/hotchocolate/400/400",
     measurementUnit: "g",
@@ -70,7 +70,7 @@ const teaCoffeeAndBeverages = [
     off: "8%"
   },
   {
-    id: 8,
+    id: "TCAB8",
     name: "Chocolate Health Drink",
     image: "https://picsum.photos/seed/healthdrink/400/400",
     measurementUnit: "g",
@@ -80,7 +80,7 @@ const teaCoffeeAndBeverages = [
     off: "7%"
   },
   {
-    id: 9,
+    id: "TCAB9",
     name: "Malted Health Drink",
     image: "https://picsum.photos/seed/malteddrink/400/400",
     measurementUnit: "g",
@@ -90,7 +90,7 @@ const teaCoffeeAndBeverages = [
     off: "8%"
   },
   {
-    id: 10,
+    id: "TCAB10",
     name: "Fruit Juice",
     image: "https://picsum.photos/seed/fruitjuice/400/400",
     measurementUnit: "L",
@@ -100,7 +100,7 @@ const teaCoffeeAndBeverages = [
     off: "9%"
   },
   {
-    id: 11,
+    id: "TCAB11",
     name: "Mango Drink",
     image: "https://picsum.photos/seed/mangodrink/400/400",
     measurementUnit: "ml",
@@ -110,7 +110,7 @@ const teaCoffeeAndBeverages = [
     off: "11%"
   },
   {
-    id: 12,
+    id: "TCAB12",
     name: "Soft Drink",
     image: "https://picsum.photos/seed/softdrink/400/400",
     measurementUnit: "L",
@@ -120,7 +120,7 @@ const teaCoffeeAndBeverages = [
     off: "7%"
   },
   {
-    id: 13,
+    id: "TCAB13",
     name: "Sparkling Water",
     image: "https://picsum.photos/seed/sparklingwater/400/400",
     measurementUnit: "ml",
@@ -130,7 +130,7 @@ const teaCoffeeAndBeverages = [
     off: "8%"
   },
   {
-    id: 14,
+    id: "TCAB14",
     name: "Mineral Water",
     image: "https://picsum.photos/seed/mineralwater/400/400",
     measurementUnit: "L",
@@ -140,7 +140,7 @@ const teaCoffeeAndBeverages = [
     off: "10%"
   },
   {
-    id: 15,
+    id: "TCAB15",
     name: "Energy Drink",
     image: "https://picsum.photos/seed/energydrink/400/400",
     measurementUnit: "ml",
