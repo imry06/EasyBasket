@@ -1,6 +1,6 @@
 const dairyAndBakery = [
   {
-    id: 1,
+    id: "DAB1",
     name: "Full Cream Milk",
     image: "https://picsum.photos/seed/fullcreammilk/400/400",
     measurementUnit: "ml",
@@ -10,7 +10,7 @@ const dairyAndBakery = [
     off: "6%"
   },
   {
-    id: 2,
+    id: "DAB2",
     name: "Toned Milk",
     image: "https://picsum.photos/seed/tonedmilk/400/400",
     measurementUnit: "L",
@@ -20,7 +20,7 @@ const dairyAndBakery = [
     off: "4%"
   },
   {
-    id: 3,
+    id: "DAB3",
     name: "Curd",
     image: "https://picsum.photos/seed/curd/400/400",
     measurementUnit: "g",
@@ -30,7 +30,7 @@ const dairyAndBakery = [
     off: "7%"
   },
   {
-    id: 4,
+    id: "DAB4",
     name: "Paneer",
     image: "https://picsum.photos/seed/paneer/400/400",
     measurementUnit: "g",
@@ -40,7 +40,7 @@ const dairyAndBakery = [
     off: "10%"
   },
   {
-    id: 5,
+    id: "DAB5",
     name: "Butter",
     image: "https://picsum.photos/seed/butter/400/400",
     measurementUnit: "g",
@@ -50,7 +50,7 @@ const dairyAndBakery = [
     off: "7%"
   },
   {
-    id: 6,
+    id: "DAB6",
     name: "Cheese Slices",
     image: "https://picsum.photos/seed/cheeseslices/400/400",
     measurementUnit: "g",
@@ -60,7 +60,7 @@ const dairyAndBakery = [
     off: "7%"
   },
   {
-    id: 7,
+    id: "DAB7",
     name: "Cheddar Cheese Block",
     image: "https://picsum.photos/seed/cheddarcheese/400/400",
     measurementUnit: "g",
@@ -70,7 +70,7 @@ const dairyAndBakery = [
     off: "8%"
   },
   {
-    id: 8,
+    id: "DAB8",
     name: "Fresh Cream",
     image: "https://picsum.photos/seed/freshcream/400/400",
     measurementUnit: "ml",
@@ -80,7 +80,7 @@ const dairyAndBakery = [
     off: "8%"
   },
   {
-    id: 9,
+    id: "DAB9",
     name: "Bread",
     image: "https://picsum.photos/seed/bread/400/400",
     measurementUnit: "g",
@@ -90,7 +90,7 @@ const dairyAndBakery = [
     off: "8%"
   },
   {
-    id: 10,
+    id: "DAB10",
     name: "Brown Bread",
     image: "https://picsum.photos/seed/brownbread/400/400",
     measurementUnit: "g",
@@ -100,7 +100,7 @@ const dairyAndBakery = [
     off: "8%"
   },
   {
-    id: 11,
+    id: "DAB11",
     name: "Burger Buns",
     image: "https://picsum.photos/seed/burgerbuns/400/400",
     measurementUnit: "pcs",
@@ -110,7 +110,7 @@ const dairyAndBakery = [
     off: "9%"
   },
   {
-    id: 12,
+    id: "DAB12",
     name: "Pizza Base",
     image: "https://picsum.photos/seed/pizzabase/400/400",
     measurementUnit: "pcs",
@@ -120,7 +120,7 @@ const dairyAndBakery = [
     off: "9%"
   },
   {
-    id: 13,
+    id: "DAB13",
     name: "Rusk",
     image: "https://picsum.photos/seed/rusk/400/400",
     measurementUnit: "g",
@@ -130,7 +130,7 @@ const dairyAndBakery = [
     off: "10%"
   },
   {
-    id: 14,
+    id: "DAB14",
     name: "Eggless Cake",
     image: "https://picsum.photos/seed/egglesscake/400/400",
     measurementUnit: "g",
@@ -140,7 +140,7 @@ const dairyAndBakery = [
     off: "8%"
   },
   {
-    id: 15,
+    id: "DAB15",
     name: "Chocolate Muffins",
     image: "https://picsum.photos/seed/chocolatemuffins/400/400",
     measurementUnit: "pcs",
