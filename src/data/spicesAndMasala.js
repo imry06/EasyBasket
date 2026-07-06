@@ -1,7 +1,7 @@
 const spicesAndMasala = [
   {
     id: 1,
-    name: "Turmeric Powder",
+    name: "SAM Turmeric Powder",
     image: "https://picsum.photos/seed/turmericpowder/400/400",
     measurementUnit: "g",
     size: "200 g",
@@ -11,7 +11,7 @@ const spicesAndMasala = [
   },
   {
     id: 2,
-    name: "Red Chilli Powder",
+    name: "SAM Red Chilli Powder",
     image: "https://picsum.photos/seed/redchillipowder/400/400",
     measurementUnit: "g",
     size: "200 g",
@@ -21,7 +21,7 @@ const spicesAndMasala = [
   },
   {
     id: 3,
-    name: "Coriander Powder",
+    name: "SAM Coriander Powder",
     image: "https://picsum.photos/seed/corianderpowder/400/400",
     measurementUnit: "g",
     size: "200 g",
@@ -31,7 +31,7 @@ const spicesAndMasala = [
   },
   {
     id: 4,
-    name: "Cumin Powder",
+    name: "SAM Cumin Powder",
     image: "https://picsum.photos/seed/cuminpowder/400/400",
     measurementUnit: "g",
     size: "200 g",
@@ -41,7 +41,7 @@ const spicesAndMasala = [
   },
   {
     id: 5,
-    name: "Cumin Seeds",
+    name: "SAM Cumin Seeds",
     image: "https://picsum.photos/seed/cuminseeds/400/400",
     measurementUnit: "g",
     size: "200 g",
@@ -51,7 +51,7 @@ const spicesAndMasala = [
   },
   {
     id: 6,
-    name: "Mustard Seeds",
+    name: "SAM Mustard Seeds",
     image: "https://picsum.photos/seed/mustardseeds/400/400",
     measurementUnit: "g",
     size: "200 g",
@@ -61,7 +61,7 @@ const spicesAndMasala = [
   },
   {
     id: 7,
-    name: "Black Pepper",
+    name: "SAM Black Pepper",
     image: "https://picsum.photos/seed/blackpepper/400/400",
     measurementUnit: "g",
     size: "100 g",
@@ -71,7 +71,7 @@ const spicesAndMasala = [
   },
   {
     id: 8,
-    name: "Garam Masala",
+    name: "SAM Garam Masala",
     image: "https://picsum.photos/seed/garammasala/400/400",
     measurementUnit: "g",
     size: "100 g",
@@ -81,7 +81,7 @@ const spicesAndMasala = [
   },
   {
     id: 9,
-    name: "Kitchen King Masala",
+    name: "SAM Kitchen King Masala",
     image: "https://picsum.photos/seed/kitchenking/400/400",
     measurementUnit: "g",
     size: "100 g",
@@ -91,7 +91,7 @@ const spicesAndMasala = [
   },
   {
     id: 10,
-    name: "Chicken Masala",
+    name: "SAM Chicken Masala",
     image: "https://picsum.photos/seed/chickenmasala/400/400",
     measurementUnit: "g",
     size: "100 g",
@@ -101,7 +101,7 @@ const spicesAndMasala = [
   },
   {
     id: 11,
-    name: "Biryani Masala",
+    name: "SAM Biryani Masala",
     image: "https://picsum.photos/seed/biryanimasala/400/400",
     measurementUnit: "g",
     size: "100 g",
@@ -111,7 +111,7 @@ const spicesAndMasala = [
   },
   {
     id: 12,
-    name: "Chaat Masala",
+    name: "SAM Chaat Masala",
     image: "https://picsum.photos/seed/chaatmasala/400/400",
     measurementUnit: "g",
     size: "100 g",
@@ -121,7 +121,7 @@ const spicesAndMasala = [
   },
   {
     id: 13,
-    name: "Pav Bhaji Masala",
+    name: "SAM Pav Bhaji Masala",
     image: "https://picsum.photos/seed/pavbhajimasala/400/400",
     measurementUnit: "g",
     size: "100 g",
@@ -131,7 +131,7 @@ const spicesAndMasala = [
   },
   {
     id: 14,
-    name: "Sambar Powder",
+    name: "SAM Sambar Powder",
     image: "https://picsum.photos/seed/sambarpowder/400/400",
     measurementUnit: "g",
     size: "200 g",
@@ -141,7 +141,7 @@ const spicesAndMasala = [
   },
   {
     id: 15,
-    name: "Rasam Powder",
+    name: "SAM Rasam Powder",
     image: "https://picsum.photos/seed/rasampowder/400/400",
     measurementUnit: "g",
     size: "200 g",
