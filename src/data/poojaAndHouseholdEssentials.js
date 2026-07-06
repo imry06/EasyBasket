@@ -1,6 +1,6 @@
 const poojaAndHouseholdEssentials = [
   {
-    id: 1,
+    id: "PAHE1",
     name: "Agarbatti (Incense Sticks)",
     image: "https://picsum.photos/seed/agarbatti/400/400",
     measurementUnit: "g",
@@ -10,7 +10,7 @@ const poojaAndHouseholdEssentials = [
     off: "10%"
   },
   {
-    id: 2,
+    id: "PAHE2",
     name: "Dhoop Sticks",
     image: "https://picsum.photos/seed/dhoopsticks/400/400",
     measurementUnit: "pcs",
@@ -20,7 +20,7 @@ const poojaAndHouseholdEssentials = [
     off: "10%"
   },
   {
-    id: 3,
+    id: "PAHE3",
     name: "Camphor",
     image: "https://picsum.photos/seed/camphor/400/400",
     measurementUnit: "g",
@@ -30,7 +30,7 @@ const poojaAndHouseholdEssentials = [
     off: "9%"
   },
   {
-    id: 4,
+    id: "PAHE4",
     name: "Cotton Wicks",
     image: "https://picsum.photos/seed/cottonwicks/400/400",
     measurementUnit: "pcs",
@@ -40,7 +40,7 @@ const poojaAndHouseholdEssentials = [
     off: "10%"
   },
   {
-    id: 5,
+    id: "PAHE5",
     name: "Pooja Oil",
     image: "https://picsum.photos/seed/poojaoil/400/400",
     measurementUnit: "ml",
@@ -50,7 +50,7 @@ const poojaAndHouseholdEssentials = [
     off: "8%"
   },
   {
-    id: 6,
+    id: "PAHE6",
     name: "Kumkum",
     image: "https://picsum.photos/seed/kumkum/400/400",
     measurementUnit: "g",
@@ -60,7 +60,7 @@ const poojaAndHouseholdEssentials = [
     off: "10%"
   },
   {
-    id: 7,
+    id: "PAHE7",
     name: "Turmeric Powder (Pooja)",
     image: "https://picsum.photos/seed/poojaturmeric/400/400",
     measurementUnit: "g",
@@ -70,7 +70,7 @@ const poojaAndHouseholdEssentials = [
     off: "11%"
   },
   {
-    id: 8,
+    id: "PAHE8",
     name: "Match Box",
     image: "https://picsum.photos/seed/matchbox/400/400",
     measurementUnit: "pcs",
@@ -80,7 +80,7 @@ const poojaAndHouseholdEssentials = [
     off: "12%"
   },
   {
-    id: 9,
+    id: "PAHE9",
     name: "Tea Light Candles",
     image: "https://picsum.photos/seed/tealightcandles/400/400",
     measurementUnit: "pcs",
@@ -90,7 +90,7 @@ const poojaAndHouseholdEssentials = [
     off: "9%"
   },
   {
-    id: 10,
+    id: "PAHE10",
     name: "Cotton Balls",
     image: "https://picsum.photos/seed/cottonballs/400/400",
     measurementUnit: "g",
@@ -100,7 +100,7 @@ const poojaAndHouseholdEssentials = [
     off: "9%"
   },
   {
-    id: 11,
+    id: "PAHE11",
     name: "Tissue Paper",
     image: "https://picsum.photos/seed/tissuepaper/400/400",
     measurementUnit: "pcs",
@@ -110,7 +110,7 @@ const poojaAndHouseholdEssentials = [
     off: "9%"
   },
   {
-    id: 12,
+    id: "PAHE12",
     name: "Paper Napkins",
     image: "https://picsum.photos/seed/papernapkins/400/400",
     measurementUnit: "pcs",
@@ -120,7 +120,7 @@ const poojaAndHouseholdEssentials = [
     off: "10%"
   },
   {
-    id: 13,
+    id: "PAHE13",
     name: "Kitchen Towels",
     image: "https://picsum.photos/seed/kitchentowels/400/400",
     measurementUnit: "rolls",
@@ -130,7 +130,7 @@ const poojaAndHouseholdEssentials = [
     off: "9%"
   },
   {
-    id: 14,
+    id: "PAHE14",
     name: "Disposable Paper Cups",
     image: "https://picsum.photos/seed/papercups/400/400",
     measurementUnit: "pcs",
@@ -140,7 +140,7 @@ const poojaAndHouseholdEssentials = [
     off: "10%"
   },
   {
-    id: 15,
+    id: "PAHE15",
     name: "Disposable Paper Plates",
     image: "https://picsum.photos/seed/paperplates/400/400",
     measurementUnit: "pcs",
