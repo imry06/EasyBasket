@@ -11,6 +11,7 @@ import dairyAndBakery from "../data/dairyAndBakery";
 import teaCoffeeAndBeverages from "../data/teaCoffeeAndBeverages";
 import personalCare from "../data/personalCare";
 import homeCare from "../data/homeCare";
+import poojaAndHouseholdEssentials from "../data/poojaAndHouseholdEssentials";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       />
       <ProductList category={"Personal Care"} products={personalCare} />
       <ProductList category={"Home Care"} products={homeCare} />
+      <ProductList category={"Pooja & Household Essentials"} products={poojaAndHouseholdEssentials} />
     </div>
   );
 }
