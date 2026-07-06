@@ -8,6 +8,7 @@ import riceAttaAndGrains from "../data/riceAttaAndGrains";
 import oilAndGhee from "../data/oilAndGhee";
 import spicesAndMasala from "../data/spicesAndMasala";
 import dairyAndBakery from "../data/dairyAndBakery";
+import teaCoffeeAndBeverages from "../data/teaCoffeeAndBeverages";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <ProductList category={"Oil & Ghee"} products={oilAndGhee} />
       <ProductList category={"Spices & Masala"} products={spicesAndMasala} />
       <ProductList category={"Dairy & Bakery"} products={dairyAndBakery} />
+      <ProductList category={"Tea, Coffee & Beverages"} products={teaCoffeeAndBeverages} />
     </div>
   );
 }
