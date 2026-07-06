@@ -5,37 +5,44 @@ import {
   decreaseQty,
 } from "../features/cart/cartSlice";
 
+import "../css/product-item.css";
+
 export default function ProductItem({ product }) {
   const dispatch = useDispatch();
 
-   const cartItem = useSelector((state)=>
-    state.cart.items.find((item) => item.id === product.id)
+  const cartItem = useSelector((state) =>
+    state.cart.items.find((item) => item.id === product.id),
   );
 
-    return (
+  return (
     <div className="card">
       <img src={product.image} alt={product.name} />
-      <h3>{product.name}</h3>
-      <p>₹{product.mrp}</p>
-      <p> {product.off} OFF</p>
-      <h2>₹{product.sellingPrice}</h2>
+      <p>{product.name}</p>
 
-        {!cartItem ? (
-          <button onClick={() => dispatch(addToCart(product))}>
-            Add to Cart
-          </button>
-        ) : (
-          <div>
-            <button onClick={() => dispatch(decreaseQty(product.id))}>
-              -
-            </button>
-            <span>{cartItem.qty}</span>
-            <button onClick={() => dispatch(increaseQty(product.id))}>
-              +
-            </button>
-          </div>
-        )}
+      <div className="product-prices">
+        <p className="mrp">₹{product.mrp}</p>
+        <h2 className="selling-price">₹{product.sellingPrice}</h2>
       </div>
-    );
 
-};
+      <p className="off"> {product.off} OFF</p>
+
+      {!cartItem ? (
+        <button
+          onClick={() => dispatch(addToCart(product))}
+          className="add-to-cart-btn"
+        >
+          Add to Cart
+        </button>
+      ) : (
+        <div className="qty-box">
+          <div className="qty-buttons">
+            <button onClick={() => dispatch(decreaseQty(product.id))}>-</button>
+            <button onClick={() => dispatch(increaseQty(product.id))}>+</button>
+          </div>
+
+          <span>Qty : {cartItem.quantity}</span>
+        </div>
+      )}
+    </div>
+  );
+}
