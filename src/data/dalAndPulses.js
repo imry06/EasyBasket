@@ -1,6 +1,6 @@
 const dalAndPulses = [
   {
-    id: 1,
+    id: "DAP1",
     name: "Toor Dal",
     image: "https://picsum.photos/seed/toordal/400/400",
     measurementUnit: "kg",
@@ -10,7 +10,7 @@ const dalAndPulses = [
     off: "8%"
   },
   {
-    id: 2,
+    id: "DAP2",
     name: "Moong Dal Yellow",
     image: "https://picsum.photos/seed/moongyellow/400/400",
     measurementUnit: "kg",
@@ -20,7 +20,7 @@ const dalAndPulses = [
     off: "9%"
   },
   {
-    id: 3,
+    id: "DAP3",
     name: "Moong Whole",
     image: "https://picsum.photos/seed/moongwhole/400/400",
     measurementUnit: "kg",
@@ -30,7 +30,7 @@ const dalAndPulses = [
     off: "10%"
   },
   {
-    id: 4,
+    id: "DAP4",
     name: "Masoor Dal",
     image: "https://picsum.photos/seed/masoordal/400/400",
     measurementUnit: "kg",
@@ -40,7 +40,7 @@ const dalAndPulses = [
     off: "8%"
   },
   {
-    id: 5,
+    id: "DAP5",
     name: "Masoor Whole",
     image: "https://picsum.photos/seed/masoorwhole/400/400",
     measurementUnit: "kg",
@@ -50,7 +50,7 @@ const dalAndPulses = [
     off: "9%"
   },
   {
-    id: 6,
+    id: "DAP6",
     name: "Chana Dal",
     image: "https://picsum.photos/seed/chanadal/400/400",
     measurementUnit: "kg",
@@ -60,7 +60,7 @@ const dalAndPulses = [
     off: "9%"
   },
   {
-    id: 7,
+    id: "DAP7",
     name: "Kala Chana",
     image: "https://picsum.photos/seed/kalachana/400/400",
     measurementUnit: "kg",
@@ -70,7 +70,7 @@ const dalAndPulses = [
     off: "10%"
   },
   {
-    id: 8,
+    id: "DAP8",
     name: "Kabuli Chana",
     image: "https://picsum.photos/seed/kabulichana/400/400",
     measurementUnit: "kg",
@@ -80,7 +80,7 @@ const dalAndPulses = [
     off: "9%"
   },
   {
-    id: 9,
+    id: "DAP9",
     name: "Urad Dal Split",
     image: "https://picsum.photos/seed/uradsplit/400/400",
     measurementUnit: "kg",
@@ -90,7 +90,7 @@ const dalAndPulses = [
     off: "9%"
   },
   {
-    id: 10,
+    id: "DAP10",
     name: "Urad Whole",
     image: "https://picsum.photos/seed/uradwhole/400/400",
     measurementUnit: "kg",
@@ -100,7 +100,7 @@ const dalAndPulses = [
     off: "9%"
   },
   {
-    id: 11,
+    id: "DAP11",
     name: "Green Peas Dry",
     image: "https://picsum.photos/seed/greenpeas/400/400",
     measurementUnit: "kg",
@@ -110,7 +110,7 @@ const dalAndPulses = [
     off: "9%"
   },
   {
-    id: 12,
+    id: "DAP12",
     name: "White Peas",
     image: "https://picsum.photos/seed/whitepeas/400/400",
     measurementUnit: "kg",
@@ -120,7 +120,7 @@ const dalAndPulses = [
     off: "9%"
   },
   {
-    id: 13,
+    id: "DAP13",
     name: "Rajma Chitra",
     image: "https://picsum.photos/seed/rajmachitra/400/400",
     measurementUnit: "kg",
@@ -130,7 +130,7 @@ const dalAndPulses = [
     off: "8%"
   },
   {
-    id: 14,
+    id: "DAP14",
     name: "Rajma Red",
     image: "https://picsum.photos/seed/rajmared/400/400",
     measurementUnit: "kg",
@@ -140,7 +140,7 @@ const dalAndPulses = [
     off: "8%"
   },
   {
-    id: 15,
+    id: "DAP15",
     name: "Lobia (Black Eye Beans)",
     image: "https://picsum.photos/seed/lobia/400/400",
     measurementUnit: "kg",
