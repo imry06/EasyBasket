@@ -1,6 +1,6 @@
 const oilAndGhee = [
   {
-    id: 1,
+    id: "OAG1",
     name: "Sunflower Oil",
     image: "https://picsum.photos/seed/sunfloweroil/400/400",
     measurementUnit: "L",
@@ -10,7 +10,7 @@ const oilAndGhee = [
     off: "7%"
   },
   {
-    id: 2,
+    id: "OAG2",
     name: "Sunflower Oil",
     image: "https://picsum.photos/seed/sunfloweroil5l/400/400",
     measurementUnit: "L",
@@ -20,7 +20,7 @@ const oilAndGhee = [
     off: "6%"
   },
   {
-    id: 3,
+    id: "OAG3",
     name: "Groundnut Oil",
     image: "https://picsum.photos/seed/groundnutoil/400/400",
     measurementUnit: "L",
@@ -30,7 +30,7 @@ const oilAndGhee = [
     off: "7%"
   },
   {
-    id: 4,
+    id: "OAG4",
     name: "Mustard Oil",
     image: "https://picsum.photos/seed/mustardoil/400/400",
     measurementUnit: "L",
@@ -40,7 +40,7 @@ const oilAndGhee = [
     off: "7%"
   },
   {
-    id: 5,
+    id: "OAG5",
     name: "Rice Bran Oil",
     image: "https://picsum.photos/seed/ricebranoil/400/400",
     measurementUnit: "L",
@@ -50,7 +50,7 @@ const oilAndGhee = [
     off: "7%"
   },
   {
-    id: 6,
+    id: "OAG6",
     name: "Soybean Oil",
     image: "https://picsum.photos/seed/soybeanoil/400/400",
     measurementUnit: "L",
@@ -60,7 +60,7 @@ const oilAndGhee = [
     off: "7%"
   },
   {
-    id: 7,
+    id: "OAG7",
     name: "Cottonseed Oil",
     image: "https://picsum.photos/seed/cottonseedoil/400/400",
     measurementUnit: "L",
@@ -70,7 +70,7 @@ const oilAndGhee = [
     off: "7%"
   },
   {
-    id: 8,
+    id: "OAG8",
     name: "Coconut Oil",
     image: "https://picsum.photos/seed/coconutoil/400/400",
     measurementUnit: "ml",
@@ -80,7 +80,7 @@ const oilAndGhee = [
     off: "6%"
   },
   {
-    id: 9,
+    id: "OAG9",
     name: "Olive Oil",
     image: "https://picsum.photos/seed/oliveoil/400/400",
     measurementUnit: "ml",
@@ -90,7 +90,7 @@ const oilAndGhee = [
     off: "7%"
   },
   {
-    id: 10,
+    id: "OAG10",
     name: "Sesame Oil",
     image: "https://picsum.photos/seed/sesameoil/400/400",
     measurementUnit: "ml",
@@ -100,7 +100,7 @@ const oilAndGhee = [
     off: "7%"
   },
   {
-    id: 11,
+    id: "OAG11",
     name: "Cow Ghee",
     image: "https://picsum.photos/seed/cowghee/400/400",
     measurementUnit: "ml",
@@ -110,7 +110,7 @@ const oilAndGhee = [
     off: "8%"
   },
   {
-    id: 12,
+    id: "OAG12",
     name: "Cow Ghee",
     image: "https://picsum.photos/seed/cowghee1l/400/400",
     measurementUnit: "L",
@@ -120,7 +120,7 @@ const oilAndGhee = [
     off: "7%"
   },
   {
-    id: 13,
+    id: "OAG13",
     name: "Buffalo Ghee",
     image: "https://picsum.photos/seed/buffaloghee/400/400",
     measurementUnit: "ml",
@@ -130,7 +130,7 @@ const oilAndGhee = [
     off: "7%"
   },
   {
-    id: 14,
+    id: "OAG14",
     name: "Vanaspati Ghee",
     image: "https://picsum.photos/seed/vanaspatighee/400/400",
     measurementUnit: "kg",
@@ -140,7 +140,7 @@ const oilAndGhee = [
     off: "7%"
   },
   {
-    id: 15,
+    id: "OAG15",
     name: "Cold Pressed Groundnut Oil",
     image: "https://picsum.photos/seed/coldpressedoil/400/400",
     measurementUnit: "L",
