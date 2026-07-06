@@ -6,6 +6,7 @@ import ProductList from "../components/ProductList";
 import dalAndPulses from "../data/dalAndPulses";
 import riceAttaAndGrains from "../data/riceAttaAndGrains";
 import oilAndGhee from "../data/oilAndGhee";
+import spicesAndMasala from "../data/spicesAndMasala";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ProductList category={"Dal & Pulses"} products={dalAndPulses} />
       <ProductList category={"Rice, Atta & Grains"} products={riceAttaAndGrains} />
       <ProductList category={"Oil & Ghee"} products={oilAndGhee} />
+      <ProductList category={"Spices & Masala"} products={spicesAndMasala} />
     </div>
   );
 }
