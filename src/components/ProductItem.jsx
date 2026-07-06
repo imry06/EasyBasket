@@ -16,7 +16,8 @@ export default function ProductItem({ product }) {
     <div className="card">
       <img src={product.image} alt={product.name} />
       <h3>{product.name}</h3>
-      <p>{product.measurementUnit}</p>
+      <p>₹{product.mrp}</p>
+      <p> {product.off} OFF</p>
       <h2>₹{product.sellingPrice}</h2>
 
         {!cartItem ? (
