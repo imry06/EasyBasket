@@ -20,13 +20,13 @@ const ProductList = ({ category, products }) => {
             slidesPerView: 2,
           },
           576: {
-            slidesPerView: 2,
-          },
-          768: {
             slidesPerView: 3,
           },
-          1024: {
+          768: {
             slidesPerView: 4,
+          },
+          1024: {
+            slidesPerView: 6,
           },
           1440: {
             slidesPerView: 8,
@@ -39,6 +39,8 @@ const ProductList = ({ category, products }) => {
           </SwiperSlide>
         ))}
       </Swiper>
+
+   
     </div>
   );
 };

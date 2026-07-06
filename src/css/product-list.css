@@ -1,6 +1,7 @@
 .product-list {
   padding: 20px 4rem;
   margin: 5px;
+  border-bottom: 1px solid #ccc;
 }
 
 .product-list h2 {
