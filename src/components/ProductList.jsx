@@ -17,7 +17,7 @@ const ProductList = ({ category, products }) => {
         spaceBetween={20}
         breakpoints={{
           320: {
-            slidesPerView: 1,
+            slidesPerView: 2,
           },
           576: {
             slidesPerView: 2,

@@ -2,7 +2,50 @@
   padding: 20px 4rem;
   margin: 5px;
 }
+
 .product-list h2 {
   color: #2e7d32;
   margin: 10px;
+}
+
+/* Large Tablets */
+@media (max-width: 1024px) {
+  .product-list {
+    padding: 20px 3rem;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .product-list {
+    padding: 20px 2rem;
+  }
+
+  .product-list h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Large Phones */
+@media (max-width: 576px) {
+  .product-list {
+    padding: 15px 1rem;
+    margin: 0;
+  }
+
+  .product-list h2 {
+    margin: 8px 0;
+    font-size: 1.4rem;
+  }
+}
+
+/* Small Phones */
+@media (max-width: 375px) {
+  .product-list {
+    padding: 12px 0.8rem;
+  }
+
+  .product-list h2 {
+    font-size: 1.2rem;
+  }
 }
