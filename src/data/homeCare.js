@@ -1,6 +1,6 @@
 const homeCare = [
   {
-    id: 1,
+    id: "HC1",
     name: "Detergent Powder",
     image: "https://picsum.photos/seed/detergentpowder/400/400",
     measurementUnit: "kg",
@@ -10,7 +10,7 @@ const homeCare = [
     off: "8%"
   },
   {
-    id: 2,
+    id: "HC2",
     name: "Detergent Liquid",
     image: "https://picsum.photos/seed/detergentliquid/400/400",
     measurementUnit: "L",
@@ -20,7 +20,7 @@ const homeCare = [
     off: "9%"
   },
   {
-    id: 3,
+    id: "HC3",
     name: "Dishwash Bar",
     image: "https://picsum.photos/seed/dishwashbar/400/400",
     measurementUnit: "pcs",
@@ -30,7 +30,7 @@ const homeCare = [
     off: "9%"
   },
   {
-    id: 4,
+    id: "HC4",
     name: "Dishwash Liquid",
     image: "https://picsum.photos/seed/dishwashliquid/400/400",
     measurementUnit: "ml",
@@ -40,7 +40,7 @@ const homeCare = [
     off: "9%"
   },
   {
-    id: 5,
+    id: "HC5",
     name: "Floor Cleaner",
     image: "https://picsum.photos/seed/floorcleaner/400/400",
     measurementUnit: "L",
@@ -50,7 +50,7 @@ const homeCare = [
     off: "7%"
   },
   {
-    id: 6,
+    id: "HC6",
     name: "Toilet Cleaner",
     image: "https://picsum.photos/seed/toiletcleaner/400/400",
     measurementUnit: "ml",
@@ -60,7 +60,7 @@ const homeCare = [
     off: "9%"
   },
   {
-    id: 7,
+    id: "HC7",
     name: "Glass Cleaner",
     image: "https://picsum.photos/seed/glasscleaner/400/400",
     measurementUnit: "ml",
@@ -70,7 +70,7 @@ const homeCare = [
     off: "8%"
   },
   {
-    id: 8,
+    id: "HC8",
     name: "Surface Cleaner",
     image: "https://picsum.photos/seed/surfacecleaner/400/400",
     measurementUnit: "ml",
@@ -80,7 +80,7 @@ const homeCare = [
     off: "9%"
   },
   {
-    id: 9,
+    id: "HC9",
     name: "Fabric Softener",
     image: "https://picsum.photos/seed/fabricsoftener/400/400",
     measurementUnit: "ml",
@@ -90,7 +90,7 @@ const homeCare = [
     off: "8%"
   },
   {
-    id: 10,
+    id: "HC10",
     name: "Air Freshener",
     image: "https://picsum.photos/seed/airfreshener/400/400",
     measurementUnit: "ml",
@@ -100,7 +100,7 @@ const homeCare = [
     off: "10%"
   },
   {
-    id: 11,
+    id: "HC11",
     name: "Garbage Bags",
     image: "https://picsum.photos/seed/garbagebags/400/400",
     measurementUnit: "pcs",
@@ -110,7 +110,7 @@ const homeCare = [
     off: "9%"
   },
   {
-    id: 12,
+    id: "HC12",
     name: "Aluminium Foil",
     image: "https://picsum.photos/seed/aluminiumfoil/400/400",
     measurementUnit: "m",
@@ -120,7 +120,7 @@ const homeCare = [
     off: "8%"
   },
   {
-    id: 13,
+    id: "HC13",
     name: "Cling Film",
     image: "https://picsum.photos/seed/clingfilm/400/400",
     measurementUnit: "m",
@@ -130,7 +130,7 @@ const homeCare = [
     off: "10%"
   },
   {
-    id: 14,
+    id: "HC14",
     name: "Mosquito Coil",
     image: "https://picsum.photos/seed/mosquitocoil/400/400",
     measurementUnit: "pcs",
@@ -140,7 +140,7 @@ const homeCare = [
     off: "11%"
   },
   {
-    id: 15,
+    id: "HC15",
     name: "Mosquito Liquid Vaporizer Refill",
     image: "https://picsum.photos/seed/mosquitorefill/400/400",
     measurementUnit: "ml",
