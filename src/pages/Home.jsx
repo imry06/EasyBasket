@@ -1,16 +1,13 @@
-import AkkaAnnaCarousel from "../components/AkkaAnnaCarousel";
-import Products from "../pages/Products"
+// import AkkaAnnaCarousel from "../components/AkkaAnnaCarousel";
 
 import ProductList from "../components/ProductList";
 
-// data 
+// data
 import dalAndPulses from "../data/dalAndPulses";
 
 export default function Home() {
   return (
     <div className="container">
-      <Products />
-
       <ProductList category={"Dal & Pulses"} products={dalAndPulses} />
     </div>
   );

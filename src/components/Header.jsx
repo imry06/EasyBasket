@@ -19,9 +19,7 @@ const Header = () => {
         <li>
           <NavLink to="/profile">Profile</NavLink>
         </li>
-        <li>
-          <NavLink to="/products">Products</NavLink>
-        </li>
+       
         <li>
           <NavLink to="/cart">Cart ({count})</NavLink>
         </li>
