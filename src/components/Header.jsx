@@ -1,31 +1,33 @@
-// import React from 'react';
 import "../css/header.css";
-import {useSelector} from "react-redux";
-import { useNavigate } from 'react-router-dom';
+import { useSelector } from "react-redux";
+import { NavLink, useNavigate } from "react-router-dom";
+
+
 
 const Header = () => {
-  const {items} = useSelector((state) => state.cart);
-  const count = items.reduce((sum, item)=>sum + item.quantity, 0);
+  const { items } = useSelector((state) => state.cart);
+  const count = items.reduce((sum, item) => sum + item.quantity, 0);
+  const navigate = useNavigate();
 
-const navigate = useNavigate();
   return (
     <header className="header">
-      <div className="header__logo">
-        {/* <span className="header__logo-icon">🛒</span> */}
-        <span className="header__logo-text">EasyBasket</span>
-      </div>
-      <div className="header__actions">
-        <button className="header__action" aria-label="User" onClick= {()=>navigate("/profile")}  >
-          <i className="fa-solid fa-user"></i>
-        </button>
+      <h2 className="logo" onClick={() => navigate("/")}>
+        akka-anna
+      </h2>
 
-        <button className="header__action" aria-label="Cart" onClick= {()=>navigate("/cart")}>
-          <i className="fa-solid fa-shopping-cart"></i>
-          <span className="header__action-count">{count}</span>
-        </button>
-      </div>
+      <ul className="nav-links">
+        <li>
+          <NavLink to="/profile">Profile</NavLink>
+        </li>
+        <li>
+          <NavLink to="/products">Products</NavLink>
+        </li>
+        <li>
+          <NavLink to="/cart">Cart ({count})</NavLink>
+        </li>
+      </ul>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
