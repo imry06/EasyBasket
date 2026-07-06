@@ -17,12 +17,12 @@ export default function ProductItem({ product }) {
   return (
     <div className="card">
       <img src={product.image} alt={product.name} />
-      <p>{product.name}</p>
 
       <div className="product-prices">
-        <p className="mrp">₹{product.mrp}</p>
         <h2 className="selling-price">₹{product.sellingPrice}</h2>
+        <p className="mrp">₹{product.mrp}</p>
       </div>
+      <p className="product-name">{product.name}</p>
 
       <p className="off"> {product.off} OFF</p>
 
@@ -31,16 +31,15 @@ export default function ProductItem({ product }) {
           onClick={() => dispatch(addToCart(product))}
           className="add-to-cart-btn"
         >
-          Add to Cart
+          <i className="fa-solid fa-cart-plus"></i>
         </button>
       ) : (
         <div className="qty-box">
           <div className="qty-buttons">
             <button onClick={() => dispatch(decreaseQty(product.id))}>-</button>
+            <span className="qty-count"> {cartItem.quantity}</span>
             <button onClick={() => dispatch(increaseQty(product.id))}>+</button>
           </div>
-
-          <span>Qty : {cartItem.quantity}</span>
         </div>
       )}
     </div>

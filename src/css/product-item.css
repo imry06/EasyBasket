@@ -1,7 +1,7 @@
 .card{
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 1rem;
+    /* padding: 1rem; */
     text-align: center;
     position: relative;
 }
@@ -15,30 +15,39 @@
 
 .card .off{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 5px;
+    right: -8px;
     background-color: #2e7d32;
     color: white;
     padding: 0.2rem 0.5rem;
     border-radius: 3px;
+    font-size: 14px;
 }
 
+.card .product-name{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
 .card .product-prices{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    gap: 1rem;
+    gap: 3px;
 }
 
 .card .product-prices .mrp{
     text-decoration: line-through;
-    color: #888;
+    color: #ca1919;
+    font-size: 12px;
 }
 
 .card .product-prices .selling-price{
-    color: #2e7d32;
+    color: #fff;
+    background-color: #2e7d32;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .card button{
@@ -48,16 +57,17 @@
     padding: 0.5rem 1rem;
     border-radius: 3px;
     cursor: pointer;
-    margin-top: 0.5rem;
 }
 .card button:hover{
     background-color: #1b5e20;
 }
 
 .card button.add-to-cart-btn{
-    width: 100%;
-    padding: 0.7rem 1rem;
     border-radius: 25px;
+    font-size: 16px;
+    position: absolute;
+    right: -8px;
+    top: 50%;
 }
 
 .card .qty-box{
@@ -65,7 +75,10 @@
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-    margin-top: 0.5rem;
+   position: absolute;
+   transform: translate(-50%, -50%);
+    right: -50%;
+    top: 50%;
 }
 .card .qty-buttons{
     display: flex;
@@ -85,4 +98,9 @@
     border: none;
     cursor: pointer;
     font-size: 1.2rem;
+}
+.card .qty-count{
+    background-color: #2e7d32;
+    color: #fff;
+    padding: 5px 10px;
 }

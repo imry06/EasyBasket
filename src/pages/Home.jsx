@@ -1,4 +1,4 @@
-import AkkaAnnaCarousel from "../components/AkkaAnnaCarousel";
+// import AkkaAnnaCarousel from "../components/AkkaAnnaCarousel";
 
 import ProductList from "../components/ProductList";
 
@@ -16,7 +16,7 @@ import poojaAndHouseholdEssentials from "../data/poojaAndHouseholdEssentials";
 export default function Home() {
   return (
     <div className="container">
-      <AkkaAnnaCarousel />
+      {/* <AkkaAnnaCarousel /> */}
       <ProductList category={"Dal & Pulses"} products={dalAndPulses} />
       <ProductList
         category={"Rice, Atta & Grains"}
