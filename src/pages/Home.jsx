@@ -9,6 +9,7 @@ import oilAndGhee from "../data/oilAndGhee";
 import spicesAndMasala from "../data/spicesAndMasala";
 import dairyAndBakery from "../data/dairyAndBakery";
 import teaCoffeeAndBeverages from "../data/teaCoffeeAndBeverages";
+import personalCare from "../data/personalCare";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <ProductList category={"Spices & Masala"} products={spicesAndMasala} />
       <ProductList category={"Dairy & Bakery"} products={dairyAndBakery} />
       <ProductList category={"Tea, Coffee & Beverages"} products={teaCoffeeAndBeverages} />
+<ProductList category={"Personal Care"} products={personalCare} />
     </div>
   );
 }
