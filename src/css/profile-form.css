@@ -6,9 +6,9 @@
 .profile-form h3{
     margin: 20px 0 ;
     text-align: center;
-    color: #fff;
+    color: #333;
     padding: 10px;
-    background-color: #2e7d32;
+   
     border-radius: 5px;
 }
 .form-field{
@@ -20,6 +20,7 @@
 
 .form-field input{
     padding: 10px;
+    color: #555;
 }
 .form-field label{
     color: #333;

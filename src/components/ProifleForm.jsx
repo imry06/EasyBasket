@@ -20,7 +20,7 @@ const ProifleForm = () => {
           <input
             type="text"
             placeholder="Full Name"
-            value={profile.fullname}
+            value={profile.fullName}
             onChange={(e) =>
               dispatch(
                 updateField({

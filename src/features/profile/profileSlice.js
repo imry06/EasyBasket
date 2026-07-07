@@ -1,23 +1,36 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
 
+const defaultProfile = {
+  fullName: "",
+  phone: "",
+
+  // House Details
+  houseNo: "",
+  floor: "",
+  apartment: "",
+  building: "",
+
+  // Address Details
+  street: "",
+  landmark: "",
+  area: "",
+  locality: "",
+};
+
+// Load profile from localStorage
+const loadProfile = () => {
+  try {
+    const data = localStorage.getItem("customerProfile");
+    return data ? JSON.parse(data) : defaultProfile;
+  } catch (error) {
+    toast.info(error.message);
+    return defaultProfile;
+  }
+};
+
 const initialState = {
-  profile: {
-    fullName: "",
-    phone: "",
-
-    // House Details
-    houseNo: "",
-    floor: "",
-    apartment: "",
-    building: "",
-
-    // Address Details
-    street: "",
-    landmark: "",
-    area: "",
-    locality: "",
-  },
+  profile: loadProfile(),
 };
 
 const profileSlice = createSlice({
@@ -35,20 +48,15 @@ const profileSlice = createSlice({
         "customerProfile",
         JSON.stringify(state.profile)
       );
+
       toast.success("Profile saved successfully!");
     },
 
-    loadProfile(state) {
-      const data = localStorage.getItem("customerProfile");
-
-      if (data) {
-        state.profile = JSON.parse(data);
-      }
-    },
-
     clearProfile(state) {
-      state.profile = initialState.profile;
+      state.profile = defaultProfile;
+
       localStorage.removeItem("customerProfile");
+
       toast.info("Profile cleared.");
     },
   },
@@ -57,7 +65,6 @@ const profileSlice = createSlice({
 export const {
   updateField,
   saveProfile,
-  loadProfile,
   clearProfile,
 } = profileSlice.actions;
 
