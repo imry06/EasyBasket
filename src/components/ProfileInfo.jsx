@@ -1,17 +1,75 @@
-// import React from "react";
 import { useSelector } from "react-redux";
 import "../css/profile-info.css";
 
-
 const ProfileInfo = () => {
-  const user = useSelector((state) => state.user || {});
-  const { name, phone, address} = user;
+  const profile = useSelector((state) => state.profile.profile);
 
   return (
     <div className="profile-info">
-      <h3>Name : {name}</h3>
-      <p>Phone : {phone}</p>
-      <p>Delivery Address : {address}</p>
+      <h3>{profile.fullName}</h3>
+
+      <p>
+        <strong>Phone:</strong> {profile.phone}
+      </p>
+
+      <hr />
+
+      <h4>House Details</h4>
+
+      <p>
+        <strong>House No:</strong> {profile.houseNo}
+      </p>
+
+      <p>
+        <strong>Floor:</strong> {profile.floor}
+      </p>
+
+      <p>
+        <strong>Apartment/Society:</strong> {profile.apartment}
+      </p>
+
+      <p>
+        <strong>Building:</strong> {profile.building}
+      </p>
+
+      <hr />
+
+      <h4>Address Details</h4>
+
+      <p>
+        <strong>Street/Road:</strong> {profile.street}
+      </p>
+
+      <p>
+        <strong>Landmark:</strong> {profile.landmark}
+      </p>
+
+      <p>
+        <strong>Area/Colony:</strong> {profile.area}
+      </p>
+
+      <p>
+        <strong>Locality:</strong> {profile.locality}
+      </p>
+
+      <hr />
+
+      <h4>Complete Delivery Address</h4>
+
+      <p>
+        {[
+          profile.houseNo,
+          profile.floor && `Floor ${profile.floor}`,
+          profile.apartment,
+          profile.building,
+          profile.street,
+          profile.landmark,
+          profile.area,
+          profile.locality,
+        ]
+          .filter(Boolean)
+          .join(", ")}
+      </p>
     </div>
   );
 };
