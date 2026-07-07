@@ -12,7 +12,7 @@ const navigate = useNavigate();
     <div className="profile-info">
 
        <div className="profile-info-actions">
-        <button className="add"><i className="fa-solid fa-user-plus"></i></button>
+        <button onClick={()=>navigate("/create-profile")} className="add"><i className="fa-solid fa-user-plus"></i></button>
         <button className="edit"><i className="fa-solid fa-user-pen"></i></button>
         <button onClick={()=>dispatch(clearProfile())} className="remove"><i className="fa-solid fa-user-xmark"></i></button>
       </div>
