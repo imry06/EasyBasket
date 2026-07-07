@@ -1,13 +1,28 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
 
-const initialState = {
-  user: {
-    name: "",
-    phone: "",
-    address: "",
-  },
+const STORAGE_KEY = "easybasket_user";
+
+const loadUserFromStorage = () => {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return { user: { name: "", phone: "", address: "" } };
+    const parsed = JSON.parse(raw);
+    return { user: { ...{ name: "", phone: "", address: "" }, ...(parsed || {}) } };
+  } catch (e) {
+    return { user: { name: "", phone: "", address: "" } };
+  }
 };
+
+const saveUserToStorage = (state) => {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state.user));
+  } catch (e) {
+    // ignore write errors
+  }
+};
+
+const initialState = loadUserFromStorage();
 
 const userSlice = createSlice({
   name: "user",
@@ -20,6 +35,8 @@ const userSlice = createSlice({
         ...action.payload,
       };
 
+      saveUserToStorage(state);
+
       toast.success("User details saved");
     },
 
@@ -28,6 +45,8 @@ const userSlice = createSlice({
         ...state.user,
         ...action.payload,
       };
+
+      saveUserToStorage(state);
 
       toast.info("User details updated");
     },
@@ -38,6 +57,8 @@ const userSlice = createSlice({
         phone: "",
         address: "",
       };
+
+      saveUserToStorage(state);
 
       toast.success("User data cleared");
     },
