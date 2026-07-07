@@ -7,8 +7,41 @@
   border-radius: 12px;
   border: 1px solid #e5e5e5;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  
 }
-
+.profile-info-actions{
+  text-align: end;
+}
+.profile-info-actions button{
+  margin-left: 10px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+}
+.profile-info-actions button.add{
+  background-color: #569b59;
+  color: white;
+}
+.profile-info-actions button.add:hover{
+  background-color: #266829;
+}
+.profile-info-actions button.edit{
+  background-color: #4473a1;
+  color: white;
+}
+.profile-info-actions button.edit:hover{
+  background-color: #193c5f;
+}
+.profile-info-actions button.remove{
+  background-color: #ca5266;
+  color: white;
+}
+.profile-info-actions button.remove:hover{
+  background-color: #bf1a36;
+}
 .profile-info h3 {
   margin-bottom: 15px;
   color: #2e7d32;
@@ -36,7 +69,7 @@
 
 .profile-info strong {
   min-width: 140px;
-  color: #222;
+  color: #666;
 }
 
 .profile-info hr {

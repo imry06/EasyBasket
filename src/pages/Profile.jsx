@@ -1,11 +1,11 @@
 import ProfileInfo from "../components/ProfileInfo";
-import ProifleForm from "../components/ProifleForm";
+// import ProifleForm from "../components/ProifleForm";
 
 const Profile = () => {
   return (
     <div>
       <ProfileInfo />
-      <ProifleForm />
+      {/* <ProifleForm /> */}
     </div>
   );
 };

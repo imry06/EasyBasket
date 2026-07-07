@@ -6,6 +6,13 @@ const ProfileInfo = () => {
 
   return (
     <div className="profile-info">
+
+       <div className="profile-info-actions">
+        <button className="add"><i className="fa-solid fa-user-plus"></i></button>
+        <button className="edit"><i className="fa-solid fa-user-pen"></i></button>
+        <button className="remove"><i className="fa-solid fa-user-xmark"></i></button>
+      </div>
+
       <h3>{profile.fullName}</h3>
 
       <p>
@@ -70,6 +77,8 @@ const ProfileInfo = () => {
           .filter(Boolean)
           .join(", ")}
       </p>
+
+     
     </div>
   );
 };
