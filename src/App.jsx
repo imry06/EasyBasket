@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-// import AkkaAnnaCarousel from "./components/AkkaAnnaCarousel";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
