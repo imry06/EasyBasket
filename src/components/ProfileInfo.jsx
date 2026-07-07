@@ -1,8 +1,12 @@
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import "../css/profile-info.css";
+import { useNavigate } from "react-router-dom";
+import { clearProfile } from "../features/profile/profileSlice";
 
 const ProfileInfo = () => {
   const profile = useSelector((state) => state.profile.profile);
+const dispatch = useDispatch();
+const navigate = useNavigate();
 
   return (
     <div className="profile-info">
@@ -10,7 +14,7 @@ const ProfileInfo = () => {
        <div className="profile-info-actions">
         <button className="add"><i className="fa-solid fa-user-plus"></i></button>
         <button className="edit"><i className="fa-solid fa-user-pen"></i></button>
-        <button className="remove"><i className="fa-solid fa-user-xmark"></i></button>
+        <button onClick={()=>dispatch(clearProfile())} className="remove"><i className="fa-solid fa-user-xmark"></i></button>
       </div>
 
       <h3>{profile.fullName}</h3>
