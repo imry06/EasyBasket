@@ -1,0 +1,29 @@
+.profile-form{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.profile-form h3{
+    margin: 20px 0 ;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: #2e7d32;
+    border-radius: 5px;
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.form-field input{
+    padding: 10px;
+}
+
+.button-field button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+}
