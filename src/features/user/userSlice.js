@@ -10,6 +10,7 @@ const loadUserFromStorage = () => {
     const parsed = JSON.parse(raw);
     return { user: { ...{ name: "", phone: "", address: "" }, ...(parsed || {}) } };
   } catch (e) {
+    console.log(e);
     return { user: { name: "", phone: "", address: "" } };
   }
 };
@@ -19,6 +20,7 @@ const saveUserToStorage = (state) => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state.user));
   } catch (e) {
     // ignore write errors
+    console.log(e);
   }
 };
 
