@@ -36,6 +36,7 @@ const handlePlaceOrder = () => {
     .map(
       (item, index) => `
 ${index + 1}. ${item.name}
+Size : ${item.size}
 Qty : ${item.quantity}
 MRP : ₹${item.mrp}
 Selling : ₹${item.sellingPrice}

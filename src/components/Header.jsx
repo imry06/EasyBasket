@@ -17,11 +17,11 @@ const Header = () => {
 
       <ul className="nav-links">
         <li>
-          <NavLink to="/profile">Profile</NavLink>
+          <NavLink to="/profile"><i className="fa-solid fa-user"></i></NavLink>
         </li>
        
         <li>
-          <NavLink to="/cart">Cart ({count})</NavLink>
+          <NavLink to="/cart"><i className="fa-solid fa-cart-arrow-down"></i> ({count})</NavLink>
         </li>
       </ul>
     </header>

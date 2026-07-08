@@ -15,6 +15,7 @@ export default function CartItem({ item }) {
       <div className="cart-item-info">
         <img src={item.image} alt="" />
         <h3>{item.name}</h3>
+        <p>{item.size}</p>
       </div>
 
       <div className="cart-item-prices">
