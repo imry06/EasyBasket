@@ -1,9 +1,11 @@
 import "../css/create-profile.css";
 import { useDispatch, useSelector } from "react-redux";
 import { updateField, saveProfile } from "../features/profile/profileSlice";
+import { useNavigate } from "react-router-dom";
 
 const ProifleForm = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const profile = useSelector((state) => state.profile.profile);
 
   // console.log(profile); 
@@ -203,7 +205,10 @@ const ProifleForm = () => {
         <div className="button-field">
           <button
           type="button"
-          onClick={()=>dispatch(saveProfile())}
+          onClick={()=>{
+dispatch(saveProfile());
+navigate("/profile");
+          } }
           >
             <i className="fa-solid fa-user-check"></i> Save Details
           </button>
