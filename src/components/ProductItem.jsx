@@ -22,7 +22,7 @@ export default function ProductItem({ product }) {
         <h2 className="selling-price">₹{product.sellingPrice}</h2>
         <p className="mrp">₹{product.mrp}</p>
       </div>
-      <p className="product-name">{product.name}</p>
+      <p className="product-name">{product.name} {product.size}</p>
 
       <p className="off"> {product.off} OFF</p>
 
