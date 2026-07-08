@@ -1,19 +1,24 @@
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import CartItem from "../components/CartItem";
+import { clearCart } from "../features/cart/cartSlice";
 
 import "../css/cart.css";
 
 export default function Cart() {
+  const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart.items);
   const profile = useSelector((state) => state.profile.profile);
 
+  // total items
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
 
+  // total MRP
   const totalMRP = cart.reduce(
     (sum, item) => sum + item.mrp * item.quantity,
     0,
   );
 
+  // total Selling Price
   const totalSellingPrice = cart.reduce(
     (sum, item) => sum + item.sellingPrice * item.quantity,
     0,
@@ -86,6 +91,9 @@ Thank you ❤️
   )}`;
 
   window.open(url, "_blank");
+
+  // to clear cart
+  dispatch(clearCart());
 };
 
   if (cart.length === 0) {
