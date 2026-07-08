@@ -8,3 +8,10 @@ export const store = configureStore({
         profile:profileReducer,
     },
 });
+
+store.subscribe(()=>{
+    localStorage.setItem(
+        "cart",
+        JSON.stringify(store.getState().cart.items)
+    );
+});
